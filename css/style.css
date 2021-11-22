@@ -1,0 +1,34 @@
+.btn {
+  height: 50px;
+  width: 50px;
+  background-color: darkorange;
+  float: left;
+  margin: 10px 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+#buttons {
+  width: 200px;
+  margin: auto;
+}
+
+#messages {
+  clear: both;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQVk7RUFDWixXQUFXO0VBQ1gsNEJBQTRCO0VBQzVCLFdBQVc7RUFDWCxnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLGlCQUFpQjtFQUNqQixlQUFlO0VBQ2YsWUFBWTtFQUNaLGtCQUFrQjtBQ0N0Qjs7QURDQTtFQUNJLFlBQVk7RUFDWixhQUFhO0VBQ2IsU0FBUztFQUNULGtCQUFrQjtFQUNsQixRQUFRO0VBQ1IsU0FBUztFQUVULGdDQUFnQztFQUNoQyxvQ0FBcUM7RUFDckMsbUJBQW1CO0FDRXZCOztBREFBO0VBQ0ksWUFBWTtFQUNaLFlBQVk7QUNHaEI7O0FEREE7RUFDSSxXQUFVO0FDSWQiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

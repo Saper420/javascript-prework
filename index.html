@@ -3,11 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="container">
-		<div id="buttons"></div>
+		<div id="buttons">
+            <div class="btn" onclick="starGame(1)"><i class="fas fa-hand-rock"></i></div>
+            <div class="btn" onclick="starGame(2)"><i class="fas fa-hand-paper"></i></div>
+            <div class="btn" onclick="starGame(3)"><i class="fas fa-hand-scissors"></i></div>
+        </div>
 		<div id="messages"></div>
 	</div>
 	<script src="js/functions.js"></script>

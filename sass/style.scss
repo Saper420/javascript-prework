@@ -1,0 +1,31 @@
+.btn{
+    height: 50px;
+    width: 50px;
+    background-color: darkorange;
+    float: left;
+    margin: 10px 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 10px;
+}
+#buttons{
+    width: 200px;
+    margin: auto;
+}
+#messages{
+    clear:both;
+}
