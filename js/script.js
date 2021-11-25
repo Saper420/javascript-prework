@@ -1,6 +1,7 @@
+let pointp = 0,pointc = 0;
 function printMessage(msg,pl,com){
-	var div = document.createElement('div');
-    var player,computer;
+	const div = document.createElement('div');
+    let player,computer;
         if(pl == 1){
             player = 'kamien';
         }else if(pl == 2){
@@ -24,13 +25,25 @@ function clearMessages(){
 }
 
 function starGame(value){
-    var playerInPut = value;
-    var computerMove = Math.floor(Math.random() * 3 + 1);
+    clearMessages()
+    let playerInPut = value;
+    let computerMove = Math.floor(Math.random() * 3 + 1);
     if (computerMove == playerInPut){
         printMessage('Remis',playerInPut,computerMove)     
     }else if(computerMove == 1 && playerInPut == 2 || computerMove == 2 && playerInPut == 3 || computerMove == 3 && playerInPut == 1){
         printMessage('Wygrana',playerInPut,computerMove)
+        count(1)
     }else{
         printMessage('Porażka',playerInPut,computerMove)
+        count(2)
     }
+}
+
+function count(value){
+    if(value == 1){
+        pointp = pointp + 1;
+    }else{
+        pointc = pointc + 1;
+    }
+    document.getElementById('count').innerHTML = ''+pointp+' - '+pointc+'';
 }
